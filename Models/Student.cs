@@ -33,5 +33,11 @@ namespace ASPNETCore_DB.Models
         [DataType(DataType.Date)]
         public DateTime EnrollmentDate { get; set; }
 
+        [Display(Name = "Photo Identicate")]
+        public string? Photo{get; set;}
+
+        [Display(Name = "Contact Mail")]
+        public string? Email{get; set;}
+
     }
 }
